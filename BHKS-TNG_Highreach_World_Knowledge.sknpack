@@ -1,0 +1,446 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "WinterishClover",
+    "description": "World knowledge for Become High King of Skyrim: The Next Generation. Covers Highreach Keep history, lore, climate, key figures, and player rulership state. Entries scale from general lore (all NPCs) to kingdom-specific knowledge gated behind coronation completion.",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "",
+        "content": "Highreach Keep is a city hidden within the Jerall Mountains, south of Falkreath Hold. Long dismissed as legend, it re-emerged publicly in 4E 175. It is accessible through passes in the mountains and contains a city, castle and ancient history.",
+        "display_name": "Highreach Keep - Existence and Location",
+        "emotion": "",
+        "importance": 0.699999988079071,
+        "location": "Jerall Mountains",
+        "tags": [
+          "highreach",
+          "location",
+          "jerall",
+          "city"
+        ],
+        "type": "LOCATION"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "",
+        "content": "Highreach Keep is a large, diverse city with a gladiatorial arena, guild hall, shops, barracks, a hall of the dead, a prison, Coldrun Lake, and Highreach Castle - the seat of royal power. It is self-sustaining and has been so for centuries.",
+        "display_name": "Highreach Keep - City Features",
+        "emotion": "",
+        "importance": 0.699999988079071,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "location",
+          "city",
+          "arena",
+          "castle"
+        ],
+        "type": "LOCATION"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAHighKingFaction\")",
+        "content": "The valley containing Highreach was created in 1E 2703 when a catastrophic landslide at Pale Pass buried the Akaviri invaders. The violence tore a hidden cleft from the Jerall Mountains. Later generations believed it was the hand of Shor and Kyne - a divine blow to preserve the North.",
+        "display_name": "Highreach - Valley Origin",
+        "emotion": "",
+        "importance": 0.6000000238418579,
+        "location": "Jerall Mountains",
+        "tags": [
+          "highreach",
+          "founding",
+          "history",
+          "akaviri",
+          "jerall"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAHighKingFaction\")",
+        "content": "Highreach was founded around 2E 577 by the Silent Accord, a secret alliance of nobles from Falkreath, the Pale, and Bruma. Bound by blood, trade, and fear of political ruin, they chose to build a sanctuary in the hidden valley—not to conquer, but to endure.",
+        "display_name": "Highreach - The Silent Accord Founding",
+        "emotion": "",
+        "importance": 0.699999988079071,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "founding",
+          "silent accord",
+          "second era",
+          "history"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAHighKingFaction\")",
+        "content": "The Rootbind Covenant were Argonian scholars and survivors of the Knahaten Flu who helped build Highreach. They brought forgotten knowledge: how to draw warmth from the earth, bind stone without fault, and fold memory into walls. Without them, the Keep would never have stood.",
+        "display_name": "Highreach - The Rootbind Covenant",
+        "emotion": "",
+        "importance": 0.6499999761581421,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "rootbind",
+          "argonian",
+          "founding",
+          "dwemer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAHighKingFaction\")",
+        "content": "The descendants of the Rootbind Covenant, called Root-Wardens, still live in Highreach. They maintain the geothermal systems that keep the valley warm, continuing a tradition of quiet, essential service that dates back to the city's founding.",
+        "display_name": "Highreach - Root-Warden Descendants",
+        "emotion": "",
+        "importance": 0.5,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "rootbind",
+          "root-warden",
+          "argonian",
+          "geothermal"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAHighKingFaction\")",
+        "content": "Highreach's first king was a nameless Breton wanderer who rose not by bloodline, but by deed. He led his people through famine and peril, earning the crown by merit alone. When reckless hands damaged the Dwemer systems beneath the Keep, he descended alone to fix them—and never returned. His sacrifice is remembered as the bedrock of Highreach's spirit.",
+        "display_name": "Highreach - The Nameless King",
+        "emotion": "",
+        "importance": 0.75,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "nameless king",
+          "breton",
+          "founding",
+          "history",
+          "sacrifice"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAKingHighreachCitizens\")",
+        "content": "Despite sitting high in the Jerall Mountains, Highreach enjoys a temperate climate. Geothermal rivers beneath the city emit constant warmth, and the mountain walls block northern winds while funneling warmer western breezes through the valley. Birch and maple grow where only pine should survive.",
+        "display_name": "Highreach - Climate Paradox",
+        "emotion": "",
+        "importance": 0.6000000238418579,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "climate",
+          "geothermal",
+          "agriculture",
+          "jerall"
+        ],
+        "type": "LOCATION"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAHighKingFaction\")",
+        "content": "In 3E 432, fearing Thalmor agents, Highreach's Shadow Council voted to collapse the mountain passes and seal the city away. The following year, an Oblivion Gate erupted from Coldrun Lake inside the sealed valley. The city was trapped, unable to flee or receive aid. Four hundred seventeen citizens died defending Highreach before the gate was closed. The city remained sealed for 150 years afterward, a period known as the Long Silence.",
+        "display_name": "Highreach - The Long Silence and Sealing",
+        "emotion": "",
+        "importance": 0.6499999761581421,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "oblivion crisis",
+          "long silence",
+          "history",
+          "tragedy",
+          "shadow council"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAHighKingFaction\")",
+        "content": "In 4E 175, following the White-Gold Concordat and the Thalmor threat, Highreach opened its gates and formally announced itself to Skyrim after 150 years of isolation. The city offered itself as the ancient seat of High Kings. High King Torygg visited in 4E 176 and was impressed, but declined to relocate the capital.",
+        "display_name": "Highreach - The Emergence (4E 175)",
+        "emotion": "",
+        "importance": 0.699999988079071,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "emergence",
+          "fourth era",
+          "torygg",
+          "history"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAHighKingFaction\")",
+        "content": "Since re-emerging, Highreach occupies a strange political place in Skyrim. It has trade agreements and limited Moot participation, but holds no real governance role. The holds acknowledge it, trade with it, but do not consult it. Its historical claim as the seat of High Kings is treated as interesting trivia rather than precedent.",
+        "display_name": "Highreach - Political Marginalization",
+        "emotion": "",
+        "importance": 0.550000011920929,
+        "location": "Skyrim",
+        "tags": [
+          "highreach",
+          "politics",
+          "skyrim",
+          "moot",
+          "history"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAKingHighreachCitizens\")",
+        "content": "The Celestium is a towering crystalline spire at the heart of Highreach's town square. It casts a pillar of light visible from every tier of the city and hums faintly at sunrise. Most think it ceremonial, but scholars believe it is a Dwemer energy dispersal column integrated by the Rootbind Covenant to stabilize the volcanic systems beneath the Keep.",
+        "display_name": "Highreach - The Celestium",
+        "emotion": "",
+        "importance": 0.5,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "celestium",
+          "dwemer",
+          "landmark",
+          "rootbind"
+        ],
+        "type": "LOCATION"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAKingHighreachCitizens\")",
+        "content": "Above Highreach Castle, carved into the mountainside, stands the Summit of Two Wills—a monument depicting Queen Vaelora and her cousin Cairn Halwerd at the moment she halted his campaign of expansion with a single line: 'We were not made to conquer—we were made to last.' It is Highreach's defining symbol of restraint over ambition.",
+        "display_name": "Highreach - The Summit of Two Wills",
+        "emotion": "",
+        "importance": 0.5,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "monument",
+          "vaelora",
+          "history",
+          "landmark"
+        ],
+        "type": "LOCATION"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAKingHighreachCitizens\")",
+        "content": "Highreach has a working gladiatorial arena. Criminals condemned by the crown may be sentenced to fight for their freedom rather than face execution, providing both justice and spectacle for citizens.",
+        "display_name": "Highreach - Gladiatorial Arena",
+        "emotion": "",
+        "importance": 0.44999998807907104,
+        "location": "Highreach Keep",
+        "tags": [
+          "highreach",
+          "arena",
+          "gladiator",
+          "justice",
+          "entertainment"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"AAHighKingCouncilFaction\")",
+        "content": "Surgus of the Black is based in Highreach and serves as a political advisor with deep knowledge of Skyrim's history and rulership. He was instrumental in reviving the ancient Moot of Jarls. Those seeking to understand power in Skyrim would do well to seek him out.",
+        "display_name": "Surgus of the Black - Grand Advisor",
+        "emotion": "",
+        "importance": 0.699999988079071,
+        "location": "Highreach Keep",
+        "tags": [
+          "surgus",
+          "advisor",
+          "highreach",
+          "moot",
+          "politics"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "",
+        "content": "Highreach Keep claims to be the ancient seat of High Kings of Skyrim—a title older than Solitude's political dominance. This claim was formally made when the city re-emerged in 4E 175, but went largely unrecognized until recently.",
+        "display_name": "Highreach - Historical Seat of High Kings",
+        "emotion": "",
+        "importance": 0.6499999761581421,
+        "location": "Skyrim",
+        "tags": [
+          "highreach",
+          "high king",
+          "skyrim",
+          "legitimacy",
+          "history"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "get_quest_stage(\"AAKingSkyrimCoronation\") >= 100",
+        "content": "Skyrim has a new ruler. For the first time in centuries, the ancient Moot of Jarls was convened, and all nine Jarls cast their voices. The result was a new ruler, now crowned and seated at Highreach Keep - a city long dismissed as legend.",
+        "display_name": "A New High King Rules from Highreach",
+        "emotion": "",
+        "importance": 0.949999988079071,
+        "location": "Skyrim",
+        "tags": [
+          "high king",
+          "moot",
+          "coronation",
+          "highreach",
+          "skyrim",
+          "player"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "get_quest_stage(\"AAKingSkyrimCoronation\") >= 40",
+        "content": "The Dragonborn now sits the throne of Skyrim as High King, ruling from Highreach Keep. They govern with a council of twelve advisors and manage the welfare of all nine holds through taxation, military command, royal decrees, and matters of faith.",
+        "display_name": "The Dragonborn is High King",
+        "emotion": "",
+        "importance": 0.8999999761581421,
+        "location": "Highreach Keep",
+        "tags": [
+          "high king",
+          "dragonborn",
+          "player",
+          "ruling",
+          "highreach",
+          "council"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "(get_quest_stage(\"AAMootOfJarls\") >= 10) and (is_in_faction(actorUUID, \"JobJarlFaction\"))",
+        "content": "The ancient Moot of Jarls is Skyrim's oldest tradition for choosing a ruler—a formal gathering of all nine Jarls. It had not been called in centuries before recently being convened at High Hrothgar to determine Skyrim's next sovereign.",
+        "display_name": "The Moot of Jarls",
+        "emotion": "",
+        "importance": 0.75,
+        "location": "High Hrothgar",
+        "tags": [
+          "moot",
+          "jarls",
+          "high king",
+          "tradition",
+          "skyrim"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "(get_quest_stage(\"AAKingSkyrimCoronation\") >= 30) and (is_in_faction(actorUUID, \"AAHighKingFaction\"))",
+        "content": "The High King rules with a council of twelve: the Grand Advisor, High Priest, Master of Coin, Lord Commander, First Mage, Will of the Crown, Voice of the Crown, Master of Assassins, Royal Chronicler, Royal Steward, Royal Blacksmith, and Royal Spouse. Each holds real power and responsibility within the kingdom.",
+        "display_name": "The Royal Council of Twelve",
+        "emotion": "",
+        "importance": 0.699999988079071,
+        "location": "Highreach Keep",
+        "tags": [
+          "council",
+          "high king",
+          "advisors",
+          "highreach",
+          "government"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "(get_quest_stage(\"AAKingCouncilMasterofCoin\") >= 50) and (is_in_faction(actorUUID, \"AAHighKingCouncilFaction\"))",
+        "content": "Hadrian Quintus, Master of Coin at Highreach, manages taxes collected from all nine holds of Skyrim. Tax rates are set per hold and directly affect citizens' approval of the crown - too high and they grow restless; too low and the treasury suffers.",
+        "display_name": "Kingdom Taxation - Master of Coin",
+        "emotion": "",
+        "importance": 0.6000000238418579,
+        "location": "Highreach Keep",
+        "tags": [
+          "taxation",
+          "hadrian",
+          "treasury",
+          "highreach",
+          "government",
+          "holds"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "(get_quest_stage(\"AAKingCouncilWillofCrown\") >= 50) and (is_in_faction(actorUUID, \"AAHighKingCouncilFaction\"))",
+        "content": "The High King can issue royal decrees affecting all of Skyrim—declaring days of rest, standardizing trade, granting research funds to the Colleges, or imposing guild tributes. Each decree carries both benefits and costs across the holds.",
+        "display_name": "Royal Decrees",
+        "emotion": "",
+        "importance": 0.550000011920929,
+        "location": "Skyrim",
+        "tags": [
+          "decrees",
+          "laws",
+          "high king",
+          "holds",
+          "government"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "(get_quest_stage(\"AAKingCouncilHighPriest\") >= 50) and (is_in_faction(actorUUID, \"AAHighKingCouncilFaction\"))",
+        "content": "The High King has the authority to establish the Church of Skyrim in individual holds, replacing the old Divines with monuments to the crown. Brother Arthorian, the High Priest, oversees the faith system and can appoint priests, send faith envoys, or commission Grand Inquisitors.",
+        "display_name": "The Church of Skyrim",
+        "emotion": "",
+        "importance": 0.550000011920929,
+        "location": "Skyrim",
+        "tags": [
+          "church",
+          "faith",
+          "arthorian",
+          "high king",
+          "religion",
+          "divines"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "(get_quest_stage(\"AAStrmCrownQuest\") >= 10) and (is_in_faction(actorUUID, \"AAHighKingCouncilFaction\"))",
+        "content": "The Stormcrown is a legendary artifact connected to the Highreach throne. It carries both a curse and a blessing that intensifies based on how the ruler governs—righteousness strengthens its power, while tyranny deepens its curse.",
+        "display_name": "The Stormcrown",
+        "emotion": "",
+        "importance": 0.6000000238418579,
+        "location": "Highreach Keep",
+        "tags": [
+          "stormcrown",
+          "artifact",
+          "high king",
+          "highreach",
+          "curse",
+          "blessing"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "(get_quest_stage(\"AAKingSkyrimCoronation\") >= 30) and (is_in_faction(actorUUID, \"AAHighKingCouncilFaction\"))",
+        "content": "Each of Skyrim's holds maintains its own opinion of the crown. Let taxation grow too heavy, expenses too wasteful, or decrees too unpopular, and a hold's approval will collapse. Enough unrest can lead to open rebellion—holds do not send complaints, they send armed men.",
+        "display_name": "Hold Approval and Rebellion",
+        "emotion": "",
+        "importance": 0.550000011920929,
+        "location": "Skyrim",
+        "tags": [
+          "approval",
+          "holds",
+          "rebellion",
+          "taxation",
+          "government",
+          "high king"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ],
+    "entry_count": 25,
+    "exported_at": "2026-05-18T15:57:27Z",
+    "format_version": 1,
+    "name": "BHKS-TNG Highreach World Knowledge",
+    "npc_groups": [],
+    "version": "1.0.0"
+  }
+}
