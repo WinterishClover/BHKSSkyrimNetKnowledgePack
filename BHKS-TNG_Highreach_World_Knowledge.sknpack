@@ -279,7 +279,7 @@
       {
         "always_inject": false,
         "condition_expr": "get_quest_stage(\"AAKingSkyrimCoronation\") >= 100",
-        "content": "Skyrim has a new ruler. For the first time in centuries, the ancient Moot of Jarls was convened, and all nine Jarls cast their voices. The result was a new ruler, now crowned and seated at Highreach Keep - a city long dismissed as legend.",
+        "content": "Skyrim has a new ruler, {{player name}}. For the first time in centuries, the ancient Moot of Jarls was convened, and all nine Jarls cast their voices. The result was a new ruler, now crowned and seated at Highreach Keep - a city long dismissed as legend.",
         "display_name": "A New High King Rules from Highreach",
         "emotion": "",
         "importance": 0.949999988079071,
@@ -297,7 +297,7 @@
       {
         "always_inject": false,
         "condition_expr": "get_quest_stage(\"AAKingSkyrimCoronation\") >= 40",
-        "content": "The Dragonborn now sits the throne of Skyrim as High King, ruling from Highreach Keep. They govern with a council of twelve advisors and manage the welfare of all nine holds through taxation, military command, royal decrees, and matters of faith.",
+        "content": "{{player name}} now sits the throne of Skyrim, ruling from Highreach Keep. They govern with a council of twelve advisors and manage the welfare of all nine holds through taxation, military command, royal decrees, and matters of faith.",
         "display_name": "The Dragonborn is High King",
         "emotion": "",
         "importance": 0.8999999761581421,
@@ -437,10 +437,10 @@
       }
     ],
     "entry_count": 25,
-    "exported_at": "2026-05-18T15:57:27Z",
+    "exported_at": "2026-05-19T23:55:59Z",
     "format_version": 1,
     "name": "BHKS-TNG Highreach World Knowledge",
     "npc_groups": [],
-    "version": "1.0.0"
+    "version": "1.0.1"
   }
 }
